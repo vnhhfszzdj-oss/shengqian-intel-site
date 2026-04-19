@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>专题页 | 抠门精小晨</title>
+    <meta name="description" content="抠门精小晨专题页模板" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500;700&family=Noto+Sans+SC:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="index.html">
+          <span class="brand-mark">晨</span>
+          <span>
+            <strong>抠门精小晨</strong>
+            <small>会过日子的生活省钱指南</small>
+          </span>
+        </a>
+        <nav class="site-nav" aria-label="主导航" id="nav-links"></nav>
+      </header>
+
+      <main>
+        <section class="hero page-hero compact-hero">
+          <div class="hero-copy">
+            <p class="eyebrow">专题企划</p>
+            <h1 id="topic-title"></h1>
+            <p class="hero-text" id="topic-description"></p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="index.html">返回首页</a>
+              <a class="button button-secondary" href="category.html?slug=shopping">去看栏目</a>
+            </div>
+          </div>
+          <aside class="hero-card">
+            <p class="card-kicker">专题说明</p>
+            <p id="topic-intro"></p>
+            <div class="pillars-inline" id="topic-highlights"></div>
+          </aside>
+        </section>
+
+        <section class="section split-section">
+          <div>
+            <div class="section-heading align-left">
+              <p class="eyebrow">入门顺序</p>
+              <h2>如果第一次逛这个专题，先从这几篇开始</h2>
+            </div>
+            <div class="feature-list" id="topic-articles"></div>
+          </div>
+          <aside class="note-card">
+            <p class="card-kicker">阅读建议</p>
+            <h3 id="topic-guide-title"></h3>
+            <p id="topic-guide-text"></p>
+            <ul id="topic-fit-list"></ul>
+          </aside>
+        </section>
+
+        <section class="section accent-soft">
+          <div class="section-heading">
+            <p class="eyebrow">开始动作</p>
+            <h2>如果你想看完就动起来，先做这 3 步</h2>
+          </div>
+          <article class="note-card reveal is-visible topic-steps-card">
+            <ol id="topic-starter-steps"></ol>
+          </article>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>专题页 · 已支持按主题组织真实内容</p>
+        <p>后续可继续扩展 FAQ、时间线和专题推荐</p>
+      </footer>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="page-topic.js"></script>
+  </body>
+</html>

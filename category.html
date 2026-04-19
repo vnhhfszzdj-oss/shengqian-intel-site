@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>栏目页 | 抠门精小晨</title>
+    <meta name="description" content="抠门精小晨栏目页模板" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500;700&family=Noto+Sans+SC:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="index.html">
+          <span class="brand-mark">晨</span>
+          <span>
+            <strong>抠门精小晨</strong>
+            <small>会过日子的生活省钱指南</small>
+          </span>
+        </a>
+        <nav class="site-nav" aria-label="主导航" id="nav-links"></nav>
+      </header>
+
+      <main>
+        <section class="hero page-hero compact-hero">
+          <div class="hero-copy">
+            <p class="eyebrow" id="category-tag"></p>
+            <h1 id="category-title"></h1>
+            <p class="hero-text" id="category-description"></p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="index.html">返回首页</a>
+              <a class="button button-secondary" href="topic.html?slug=alternatives">看看热门专题</a>
+            </div>
+          </div>
+          <aside class="hero-card">
+            <p class="card-kicker">栏目定位</p>
+            <p id="category-intro"></p>
+            <div class="pillars-inline" id="category-meta"></div>
+          </aside>
+        </section>
+
+        <section class="section split-section">
+          <div>
+            <div class="section-heading align-left">
+              <p class="eyebrow">栏目精选</p>
+              <h2>先看这一栏最能代表气质的一篇</h2>
+            </div>
+            <article class="feature-spotlight" id="category-featured"></article>
+          </div>
+          <aside class="note-card">
+            <p class="card-kicker">写作底线</p>
+            <h3>这一栏的内容，至少要讲清这几件事</h3>
+            <ul id="category-playbook"></ul>
+          </aside>
+        </section>
+
+        <section class="section">
+          <div class="section-heading">
+            <p class="eyebrow">栏目文章</p>
+            <h2>继续往下看这组内容</h2>
+          </div>
+          <div class="feature-list" id="category-articles"></div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>栏目页 · 已接通动态数据和真实内容结构</p>
+        <p>后续可继续补筛选、标签和按场景聚合</p>
+      </footer>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="page-category.js"></script>
+  </body>
+</html>

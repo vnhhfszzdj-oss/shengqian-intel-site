@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>归档 | 抠门精小晨</title>
+    <meta
+      name="description"
+      content="按栏目整理抠门精小晨当前站内内容，方便快速查找。"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500;700&family=Noto+Sans+SC:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="index.html">
+          <span class="brand-mark">晨</span>
+          <span>
+            <strong>抠门精小晨</strong>
+            <small>会过日子的生活省钱指南</small>
+          </span>
+        </a>
+        <nav class="site-nav" aria-label="主导航" id="nav-links"></nav>
+      </header>
+
+      <main>
+        <section class="hero page-hero compact-hero">
+          <div class="hero-copy">
+            <p class="eyebrow">内容归档</p>
+            <h1>先按栏目找，
+              再按自己的生活问题往下钻。</h1>
+            <p class="hero-text">
+              这页把当前站内内容按栏目整理出来，适合快速看清结构，也适合后续持续补文章时统一管理。
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="index.html">返回首页</a>
+              <a class="button button-secondary" href="topic.html?slug=living-alone">查看专题推荐</a>
+            </div>
+          </div>
+          <aside class="hero-card">
+            <p class="card-kicker">当前状态</p>
+            <h2 id="archive-status-title">先把骨架搭稳，
+              再慢慢把内容填深。</h2>
+            <p id="archive-status-text">现在这页像一个站内目录，后续可以继续扩展为按专题、标签、时间线整理的完整归档系统。</p>
+          </aside>
+        </section>
+
+        <section class="section">
+          <div class="section-heading">
+            <p class="eyebrow">栏目总览</p>
+            <h2>从这里快速进入全部内容入口</h2>
+          </div>
+          <div id="archive-overview" class="archive-overview"></div>
+          <div id="archive-groups" class="archive-groups"></div>
+        </section>
+
+        <section class="section accent-soft">
+          <div class="section-heading">
+            <p class="eyebrow">专题归档</p>
+            <h2>如果你更习惯按生活问题逛，也可以从专题进入</h2>
+            <p>专题会把分散在不同栏目里的文章重新串起来，更适合收藏和连续阅读。</p>
+          </div>
+          <div id="archive-topics" class="topic-grid"></div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>归档页 · 方便总览栏目、文章和内容密度</p>
+        <p>后续可继续补搜索、标签筛选和更新记录</p>
+      </footer>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="page-archive.js"></script>
+  </body>
+</html>
