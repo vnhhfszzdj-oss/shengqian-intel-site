@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://vnhhfszzdj-oss.github.io/shengqian-intel-site/sitemap-index.xml
+Sitemap: https://vnhhfszzdj-oss.github.io/shengqian-intel-site/sitemap.xml
